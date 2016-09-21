@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorButtonNormal">#a32020</item>
+
+        <item name="android:buttonStyle">@style/AppTheme.Widget.Button</item>
+    </style>
+
+
+    <style name="AppTheme.Widget.Button" parent="android:Widget.Material.Button">
+        <item name="fontPath">fonts/Texta_Alt_Regular.otf</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:padding">2dp</item>
+
+    </style>
+
+    <style name="AppTheme.Widget.Button.Borderless.Colored" parent="android:Widget.Material.Light.Button.Borderless.Colored">
+        <item name="fontPath">fonts/Texta_Alt_Regular.otf</item>
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textColor">@android:color/holo_blue_dark</item>
+        <item name="android:padding">2dp</item>
+
+    </style>
+
+
+
+</resources>
